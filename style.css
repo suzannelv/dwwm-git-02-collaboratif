@@ -25,14 +25,14 @@ ul, li{
 
 .header_ul{
   
-  background: #9ebbcd;
+  background: #B4EDD2;
   display: flex;
   justify-content: space-around;
   padding: 12px;
   color: white; 
 }
 ul, li, a:hover{
-  color: rgb(19, 20, 19);
+  color: #8D94BA;
 }
 .logo{
   height: 30px;
@@ -53,6 +53,7 @@ main p {
   text-align: justify;
 }
 
+<<<<<<< HEAD
 /* section footer */
 footer, .left, .right, .social-icons {
   display: flex;
@@ -90,3 +91,17 @@ footer .right .social-icons {
 }
 
 
+=======
+body aside { 
+  position: absolute;
+  top: 60px;
+  right: 0px;
+  width: 200px;
+  height: 100%;
+  background-color: #A0CFD3;
+}
+
+aside > p {
+  margin: 0.9rem;
+}
+>>>>>>> 7610961c7690e5407916f19f2f3639681fe3abf7
