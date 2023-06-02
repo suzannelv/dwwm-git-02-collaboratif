@@ -4,10 +4,36 @@
   box-sizing:border-box;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  padding:20px;
+  text-align: center;
+}
+
+p {
+  padding: 10px;
+}
+
 a{
   text-decoration: none;
 }
 
-ul,li{ 
+ul, li{ 
   list-style: none;
+}
+
+
+
+/* section content */
+main, .content {
+  display: flex;
+}
+main .content {
+  justify-content: center;
+  flex-direction: column;
+  width: 75%;
+}
+
+main .content p {
+  font-weight: 600;
+  text-align: justify;
 }
