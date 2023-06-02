@@ -1,0 +1,105 @@
+/* style commun */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding:20px;
+}
+
+p {
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul, li{ 
+  list-style: none;
+}
+
+/* styles for header */
+
+.header_ul{
+  
+  background: #B4EDD2;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;
+  color: white; 
+}
+ul, li, a:hover{
+  color: #8D94BA;
+}
+.logo{
+  height: 30px;
+  width: 30px;
+}
+
+
+/* section content */
+main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 75%;
+  height: auto;
+}
+
+main p {
+  font-weight: 500;
+  text-align: justify;
+}
+
+/* section footer */
+footer, .left, .right, .social-icons {
+  display: flex;
+}
+
+footer {
+  flex-direction: row;
+  margin-top: 20px;
+  border-top: 1px solid #9ebbcd;
+  width: 80%;
+  margin: auto;
+}
+
+footer .list {
+  margin-left: 100px;
+}
+footer .list h4 {
+  padding-left: 2px;
+}
+
+footer .left {
+  flex-direction: column;
+}
+
+footer .right {
+  margin-left: 300px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer .right .social-icons {
+  flex-direction: row;
+  padding-left: 20px;
+  letter-spacing: 1em;
+}
+
+
+aside { 
+  position: absolute;
+  top: 60px;
+  right: 0px;
+  width: 20%;
+  height: 100%;
+  background-color: #A0CFD3;
+}
+
+aside > p {
+  margin: 0.9rem;
+}
