@@ -11,3 +11,17 @@ a{
 ul,li{ 
   list-style: none;
 }
+/* styles fot header */
+
+.header_ul{
+  
+    background: #8989ba;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    color: white; 
+  }
+  ul, li, a:hover{
+    color: blueviolet;
+  }
+  
