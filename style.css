@@ -15,7 +15,7 @@
   color: white; 
 }
 ul, li, a:hover{
-  color: rgb(19, 20, 19);
+  color: #8D94BA;
 }
 .logo{
   height: 30px;
@@ -64,5 +64,5 @@ body aside {
 }
 
 aside > p {
-  margin: 0.5rem;
+  margin: 0.9rem;
 }
