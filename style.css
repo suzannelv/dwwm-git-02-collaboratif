@@ -46,6 +46,7 @@ main{
   justify-content: center;
   flex-direction: column;
   width: 75%;
+  height: auto;
 }
 
 main p {
@@ -90,11 +91,11 @@ footer .right .social-icons {
 }
 
 
-body aside { 
+aside { 
   position: absolute;
   top: 60px;
   right: 0px;
-  width: 200px;
+  width: 20%;
   height: 100%;
   background-color: #A0CFD3;
 }
