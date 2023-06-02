@@ -53,7 +53,6 @@ main p {
   text-align: justify;
 }
 
-<<<<<<< HEAD
 /* section footer */
 footer, .left, .right, .social-icons {
   display: flex;
@@ -91,7 +90,6 @@ footer .right .social-icons {
 }
 
 
-=======
 body aside { 
   position: absolute;
   top: 60px;
@@ -104,4 +102,3 @@ body aside {
 aside > p {
   margin: 0.9rem;
 }
->>>>>>> 7610961c7690e5407916f19f2f3639681fe3abf7
