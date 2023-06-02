@@ -4,6 +4,24 @@
   box-sizing:border-box;
 }
 
+/* styles fot header */
+
+.header_ul{
+  
+  background: #9ebbcd;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;
+  color: white; 
+}
+ul, li, a:hover{
+  color: rgb(19, 20, 19);
+}
+.logo{
+  height: 30px;
+  width: 30px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   padding:20px;
   text-align: center;
@@ -20,25 +38,6 @@ a{
 ul, li{ 
   list-style: none;
 }
-<<<<<<< HEAD
-/* styles fot header */
-
-.header_ul{
-  
-    background: #9ebbcd;
-    display: flex;
-    justify-content: space-around;
-    padding: 12px;
-    color: white; 
-  }
-  ul, li, a:hover{
-    color: rgb(19, 20, 19);
-  }
-  .logo{
-    height: 30px;
-    width: 30px;
-  }
-=======
 
 
 
@@ -54,4 +53,3 @@ main p {
   font-weight: 500;
   text-align: justify;
 }
->>>>>>> 539d8c5ffef4f2e4e40d3399d9296754ca89d2a1
